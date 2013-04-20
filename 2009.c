@@ -6,7 +6,6 @@ int main(void){
 
     for(i=0; i<3; i++){
         scanf("%c", &x[i]);
-        printf("%c\n", x[i]);
     }
 
     for(i=0; i<3; i++){
@@ -17,6 +16,9 @@ int main(void){
                 x[j]=tmp;
             }
         }
+    }
+    for(i=0;i<3;i++){
+        printf("%c\n",x[i]);
     }
     return 0;
 }
