@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(void){
+<<<<<<< HEAD
     char x[3];
     char tmp;
     int i,j;
@@ -20,5 +21,13 @@ int main(void){
     for(i=0;i<3;i++){
         printf("%c\n",x[i]);
     }
+=======
+    char x,y;
+    char a;
+    
+    scanf("%c%c",&x, &y);
+    scanf("%c",&a);
+    printf("%c%c%c\n", x, y, a);
+>>>>>>> 9bd5d89acf6116b3b9d6bb9f75fa320d7d796c61
     return 0;
 }
