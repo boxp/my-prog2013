@@ -1,22 +1,10 @@
 #include <stdio.h>
 int main(void){
-    char x[3];
-    char tmp;
-    int i,j;
-
-    for(i=0; i<3; i++){
-        scanf("%c", &x[i]);
-        printf("%c\n", x[i]);
-    }
-
-    for(i=0; i<3; i++){
-        for(j = i+1; j<3; j++){
-            if( ( x[i] - x[j] ) > 0){
-                tmp = x[i];
-                x[i]=x[j];
-                x[j]=tmp;
-            }
-        }
-    }
+    char x,y;
+    char a;
+    
+    scanf("%c%c",&x, &y);
+    scanf("%c",&a);
+    printf("%c%c%c\n", x, y, a);
     return 0;
 }
