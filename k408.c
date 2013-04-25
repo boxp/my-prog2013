@@ -14,7 +14,7 @@ int main(void){
         printf("Enter the coordinatesθ = %g[degree]\n", angle);
     }else if( dim == 1){
         th = angle;
-        printf("Enter the coordinatesθ = %g[degree]\n", angle);
+        printf("Enter the coordinatesθ = %g[radian]\n", angle);
     }else{
         printf("Input data error:*** unit ***\n");
         return 1;
