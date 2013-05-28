@@ -7,8 +7,10 @@ int main(void){
   int i,j;
   for (i = 0; i < 20; i++) {
     for (j = 0; j < 3; j++) {
-      printf("Input a[%d][%d] :",i,j);
-      scanf("%d",&a[i][j]);
+      do{
+        printf("Input a[%d][%d] :",i,j);
+        scanf("%d",&a[i][j]);
+      }while(a[i][j] > 100);
       switch (j) {
         case 0:
           eng_ave += a[i][j];
