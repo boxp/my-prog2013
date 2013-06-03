@@ -28,7 +28,7 @@ int main(void){
       }
     }
   }
-  printf("number   plxce\n");
+  printf("number   place\n");
   for (i = 0; i < 20; i++) {
     printf("x[%d]=%3d",i, x[i][0]);
     printf("      %d\n", x[i][1] + 1);
